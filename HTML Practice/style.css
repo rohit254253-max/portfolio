@@ -1,0 +1,46 @@
+/* --- Global Styles --- */
+/* Apply a border-box model globally for easier layout calculations */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Set default font and background color for the body */
+  body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0; /* Remove default browser margin */
+    padding: 20px;
+  }
+  
+  /* --- Typography --- */
+  h1, h2, h3 {
+    color: #000;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  /* --- Links --- */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* --- Layout Example (using a class) --- */
+  .container {
+    max-width: 900px;
+    margin: 0 auto; /* Center the container on the page */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
