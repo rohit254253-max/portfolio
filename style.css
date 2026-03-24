@@ -1,46 +1,74 @@
-/* --- Global Styles --- */
-/* Apply a border-box model globally for easier layout calculations */
-*, *::before, *::after {
-    box-sizing: border-box;
-  }
-  
-  /* Set default font and background color for the body */
-  body {
-    font-family: sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0; /* Remove default browser margin */
-    padding: 20px;
-  }
-  
-  /* --- Typography --- */
-  h1, h2, h3 {
-    color: #000;
-    margin-bottom: 10px;
-  }
-  
-  p {
-    line-height: 1.6;
-    margin-bottom: 15px;
-  }
-  
-  /* --- Links --- */
-  a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  /* --- Layout Example (using a class) --- */
-  .container {
-    max-width: 900px;
-    margin: 0 auto; /* Center the container on the page */
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
-  
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #0f172a;
+  color: #f1f5f9;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #2563eb, #1e3a8a);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  opacity: 0.8;
+}
+
+/* Profile */
+.profile {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile img {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #38bdf8;
+}
+
+/* Cards */
+.card {
+  background: #1e293b;
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  color: #38bdf8;
+}
+
+/* List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #334155;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  opacity: 0.7;
+}
